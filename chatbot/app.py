@@ -26,7 +26,7 @@ input_text=st.text_input("Search the topic u want")
 
 
 ## Gemini LLM
-llm=ChatGoogleGenerativeAI(model="gemini-pro")
+llm=ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest")
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 

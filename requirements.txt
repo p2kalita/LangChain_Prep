@@ -7,3 +7,6 @@ faiss-cpu
 langchain_google_genai
 langchain-community
 python-dotenv
+bs4
+pypdf 
+chromadb
